@@ -8,22 +8,27 @@ body{
     min-height: 100vh;
     justify-content: center;
     align-items: center;
+
 }
 
 .light-theme{
     background-color: black;
     background-image: url('../img/background-light.jpeg');
+
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
 }
+
 .dark-theme{
     background-color: black;
     background-image: url('../img/background-dark.jpeg');
+
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
 }
+
 i{
     color: black;
     padding: 0.5rem;
@@ -32,6 +37,7 @@ i{
 i:hover{
     color: white;
 }
+
 .container{
     position: relative;
 }
@@ -95,3 +101,9 @@ i:hover{
   color: #007b85;
 }
 
+.flex-between {
+    display: flex;   
+    justify-content: space-between; 
+    color: #006f75;               
+    gap: 1rem;                    
+}
